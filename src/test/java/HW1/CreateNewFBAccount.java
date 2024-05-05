@@ -1,3 +1,5 @@
+package HW1;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +11,7 @@ HW
 goto facebook .com
 click on create new account and fill in all the text box only
  */
-public class HW1 {
+public class CreateNewFBAccount {
 
     public static void main(String[] args) throws InterruptedException {
 
