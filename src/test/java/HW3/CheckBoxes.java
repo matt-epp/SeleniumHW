@@ -1,5 +1,6 @@
 package HW3;
 
+import HW4.CloseBrowser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,6 +33,7 @@ public class CheckBoxes {
                 checkBox.click();
             }
         }
+        CloseBrowser.closeBrowser();
 
 
 
